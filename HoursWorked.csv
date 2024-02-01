@@ -1,0 +1,46 @@
+Sector,Metric,Value
+Agriculture,AverageHours,-10.5
+Agriculture,Employment,-1.4
+Agriculture,ActualHours ,-11.8
+Transport & storage,AverageHours,-10.1
+Transport & storage,Employment,8.5
+Transport & storage,ActualHours ,-2.5
+Accomm & food,AverageHours,-8.9
+Accomm & food,Employment,-2.4
+Accomm & food,ActualHours ,-11.1
+Human health ,AverageHours,-8
+Human health ,Employment,21.9
+Human health ,ActualHours ,12.1
+Other activities ,AverageHours,-7.4
+Other activities ,Employment,-1.3
+Other activities ,ActualHours ,-8.6
+Wholesale & retail,AverageHours,-7.1
+Wholesale & retail,Employment,13.3
+Wholesale & retail,ActualHours ,5.3
+All economic sectors,AverageHours,-6.9
+All economic sectors,Employment,15.1
+All economic sectors,ActualHours ,7.1
+Industry ,AverageHours,-6.8
+Industry ,Employment,12.4
+Industry ,ActualHours ,4.7
+"Professional, sci & tech",AverageHours,-6.5
+"Professional, sci & tech",Employment,26.2
+"Professional, sci & tech",ActualHours ,18
+Education,AverageHours,-5
+Education,Employment,21.6
+Education,ActualHours ,15.6
+Financial & insurance ,AverageHours,-5
+Financial & insurance ,Employment,21
+Financial & insurance ,ActualHours ,15
+Public admin,AverageHours,-5
+Public admin,Employment,26.8
+Public admin,ActualHours ,20.5
+Construction ,AverageHours,-4.9
+Construction ,Employment,16.4
+Construction ,ActualHours ,10.7
+ICT,AverageHours,-4.5
+ICT,Employment,47.6
+ICT,ActualHours ,40.9
+Admin & support ,AverageHours,-3.7
+Admin & support ,Employment,1
+Admin & support ,ActualHours ,-2.8

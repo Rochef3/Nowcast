@@ -1,0 +1,49 @@
+Sector,Month,Value
+Agriculture,2021M11,101.7
+Agriculture,2022M11,105.3
+Agriculture,2023M11,107.1
+Construction ,2021M11,110.1
+Construction ,2022M11,116.1
+Construction ,2023M11,119.8
+Wholesale & retail,2021M11,105.3
+Wholesale & retail,2022M11,109.4
+Wholesale & retail,2023M11,111.1
+Transportation,2021M11,103.4
+Transportation,2022M11,111
+Transportation,2023M11,117.8
+Accom & food ,2021M11,97.2
+Accom & food ,2022M11,109.6
+Accom & food ,2023M11,110.4
+ICT,2021M11,114.6
+ICT,2022M11,123.9
+ICT,2023M11,118.8
+"Prof, sci & tech",2021M11,109.8
+"Prof, sci & tech",2022M11,117
+"Prof, sci & tech",2023M11,120
+Admin & support ,2021M11,103.2
+Admin & support ,2022M11,111.3
+Admin & support ,2023M11,109.3
+Public admin,2021M11,107.9
+Public admin,2022M11,112
+Public admin,2023M11,116.1
+Education ,2021M11,107.9
+Education ,2022M11,117.2
+Education ,2023M11,115.4
+Human health ,2021M11,108.7
+Human health ,2022M11,113.9
+Human health ,2023M11,118.9
+Industry ,2021M11,103.8
+Industry ,2022M11,109
+Industry ,2023M11,110.8
+Financial & Insurance,2021M11,97.8
+Financial & Insurance,2022M11,108.9
+Financial & Insurance,2023M11,113
+Arts & entertainment,2021M11,94.1
+Arts & entertainment,2022M11,97.8
+Arts & entertainment,2023M11,99.8
+Services ,2021M11,110.3
+Services ,2022M11,113.6
+Services ,2023M11,119.7
+All sectors,2021M11,105
+All sectors,2022M11,111.7
+All sectors,2023M11,113.6
