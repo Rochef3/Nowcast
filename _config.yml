@@ -22,9 +22,12 @@ jobs:
           "timetk", "scales", "viridis",
           "ISOweek", "fs", "shiny", "shinydashboard"))
           install.packages("tidyr", type = "source")
-          rmarkdown::render("CombinedDashboard.Rmd")
+
         shell: Rscript {0}
-        
+
+
+   - name: Run R script
+      run: Rscript .github/CombinedDashboard.r
         
       - name: Commit results
         run: |
