@@ -1,4 +1,33 @@
-theme: jekyll-theme-minimal
-title: Nowcast
-    - name: Run R script
-      run: Rscript CombinedDashboard.r
+name: Nowcast Update
+on:
+  schedule:
+  - cron: "30 11 * * 1-5"
+    branches: main
+
+jobs:
+  build:
+    runs-on: macOS-latest	
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: r-lib/actions/setup-r@master
+
+      - uses: r-lib/actions/setup-pandoc@master
+
+      - name: Install dependencies
+        run: |
+          install.packages(c("flexdashboard", "plotly", "reshape2",
+          "zoo", "xts", "dygraphs", "rio", "openxlsx", "parsedate",
+          "janitor", "tidyverse", "readr", "forcats",
+          "timetk", "scales", "viridis",
+          "ISOweek", "fs", "shiny", "shinydashboard"))
+          install.packages("tidyr", type = "source")
+          rmarkdown::render("CombinedDashboard.R")
+        shell: Rscript {0}
+        
+        
+      - name: Commit results
+        run: |
+          git add -A
+          git commit -m 'Rebuild site' || echo "No changes to commit"
+          git push origin --force || echo "No changes to commit"
