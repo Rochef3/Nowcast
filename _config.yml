@@ -16,11 +16,12 @@ jobs:
 
       - name: Install dependencies
         run: |
-          install.packages(c("flexdashboard", "plotly", "reshape2",
-          "zoo", "xts", "dygraphs", "rio", "openxlsx", "parsedate",
-          "janitor", "tidyverse", "readr", "forcats",
-          "timetk", "scales", "viridis",
-          "ISOweek", "fs", "shiny", "shinydashboard"))
+          install.packages(c("shiny", "shinydashboard", "flexdashboard",
+          "reshape2", "tidyquant", "quantmod", "TTR", "xts", "rio",
+          "parsedate", "tidyverse", "ggplot2", "readr",
+          "tidyr", "openxlsx", "htmlwidgets",
+          "plotly", "reshape2", "zoo", "dygraphs", "parsedate", "janitor", "dplyr", 
+          "labeling", "purrr", "readxl", "stringr", "Rcpp", "ggrepel", "fresh"))
           install.packages("tidyr", type = "source")
           rmarkdown::render("Dashboardb.Rmd")
         shell: Rscript {0}
