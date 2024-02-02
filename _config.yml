@@ -22,11 +22,10 @@ jobs:
           "timetk", "scales", "viridis",
           "ISOweek", "fs", "shiny", "shinydashboard"))
           install.packages("tidyr", type = "source")
-
+          rmarkdown::render("Dashboardb.Rmd")
         shell: Rscript {0}
 
 
-          rmarkdown::render("Dashboardb.Rmd")
 
       - name: Commit results
         run: |
