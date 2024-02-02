@@ -26,9 +26,8 @@ jobs:
         shell: Rscript {0}
 
 
-   - name: Run R script
-      run: Rscript .github/CombinedDashboard.r
-        
+          rmarkdown::render("Dashboardb.Rmd")
+
       - name: Commit results
         run: |
           git add -A
