@@ -418,7 +418,6 @@ server <- function(input, output) {
   })
 }
 
-shinyApp(ui = ui, server)
+shinyApp(ui = ui, server = server)
 
-rsconnect::deployApp(appFiles='CombinedDashboard.r', appPrimaryDoc='CombinedDashboard.r')
 
